@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<script> 
+	var myVideo = document.getElementById("video1"); 
+
+	function playPause() { 
+	if (myVideo.paused) 
+    myVideo.play(); 
+	else 
+    myVideo.pause(); 
+	} 
+	</script> 
+</head>
+<body> 
+	<div id="video1">
+	<table align="center">
+	<caption>Team Tummy</caption>
+	<tr>
+		<td>
+		<video src="team.mov" width="250" controls></video><br>
+		</td>
+		<td>
+		<video src="team1.mov" width="250" controls></video><br>
+		</td>
+		<td>
+		<video src="team2.mov" width="250" controls></video><br>
+		</td>
+		<td>
+		<video src="team3.mov" width="250" controls></video><br>
+		</td>
+	</tr>
+	</table>
+	</div>
+	
+	<style>
+		@media screen and (min-width: 600px);
+		body{
+			background-image: url(4.jpeg);
+			background-repeat: no-repeat;
+			background-size: 100% 700px;
+		}
+		#video1{
+			width: 400px;
+			height: 300px;
+			padding: 80px 100px;
+		}
+		caption{
+			font-family: arial;
+			font-size: 30px;
+			color: black;
+		}
+		th{
+		font-size: 30px;
+		background-color: lightred;
+		padding: 20px;
+		}
+		table{
+		background-color: lightyellow;
+		width: 60%;
+		border-radius: 20px;
+		opacity: 1.0;
+		}
+		td{
+		padding: 15px;
+		}
+	</style>
+</table>
+</body> 
+</html>

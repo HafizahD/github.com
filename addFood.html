@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Add Food</title>
+</head>
+<body>
+	<div class="form">
+		<form id="addFood" action="addFood.html" method="get">
+				<input type="text" name="uname" id="button" placeholder="Username"><br>
+				<br>
+				<input type="text" name="rname" id="button" placeholder="Restaurant Name"><br>
+				<br>
+				<textarea rows="5" cols="50" id="desc" placeholder="Location"></textarea><br><br>
+				<input type="file" name="fileupload" value="fileupload" id="fileupload">
+				<label for="fileupload"> Select Picture to Upload</label> <br><br>
+				<input type="submit" value="Share It!" id="butt"></button>
+			</form>
+	</div>
+	<style>
+	
+	body{
+		background-image: url(2.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 700px;
+	}
+	
+	.form{
+	text-align: center;
+	margin: 100px auto 0;
+	}
+	
+	#addFood{
+	padding: 50px 0px;
+	opacity: 0.8;
+	width: 50%;
+	background-color: #F9E79F ;
+	}
+	
+	#button{
+		width: 250px;
+		padding: 10px;
+		border-color: brown;
+		border-radius: 10px;
+	}
+	
+	#desc{
+		border-color: brown;
+		border-radius: 10px;
+		font-family: Sans-serif;
+	}
+	
+	 #fileupload{
+		position: center;
+		font-family: Arial;
+		border-color: brown;
+		outline: 0px;
+	 }
+
+	 #butt{
+		border-color: brown;
+		background-color: yellow;
+		border-radius: 5px;
+	}
+	</style>
+</body>
+</html>
